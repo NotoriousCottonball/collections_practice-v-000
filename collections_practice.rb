@@ -33,4 +33,4 @@ def reverse_array(array)
 end 
 
 def kesha_maker(array_of_strings) 
-  array_of_strings
+  array_of_strings.collect {|word| word[2]
