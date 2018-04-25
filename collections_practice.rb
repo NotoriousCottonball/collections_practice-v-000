@@ -35,3 +35,6 @@ end
 def kesha_maker(array_of_strings) 
   array_of_strings.each {|word| word[2] = "$"} 
 end
+
+def find_a(array_of_strings)
+  
