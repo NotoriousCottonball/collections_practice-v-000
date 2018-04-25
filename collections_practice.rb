@@ -47,4 +47,4 @@ def sum_array(array)
 end
 
 def add_s(array_of_strings)
-  array_of_strings.
+  array_of_strings.collect.with_index 
