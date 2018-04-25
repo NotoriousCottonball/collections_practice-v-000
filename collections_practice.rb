@@ -7,4 +7,13 @@ def sort_array_desc(array_of_int)
 end
 
 def sort_array_char_account(array_of_strings)
-  array_of_strings.sort {|a, b|
+  array_of_strings.sort do |a, b|
+    if a.length == b.length 
+      0 
+    elsif a.length < b.length 
+      -1 
+    elsif a.length > b.length 
+      1 
+    end 
+  end 
+end
