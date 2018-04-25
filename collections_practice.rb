@@ -51,7 +51,7 @@ def add_s(array_of_strings)
     if index = 1 
      word
     else
-      word += "s"
+      word + "s"
     end
   end 
 end
