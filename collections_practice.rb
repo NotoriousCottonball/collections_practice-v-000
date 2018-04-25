@@ -39,3 +39,7 @@ end
 def find_a(array_of_strings)
   array_of_strings.select {|string| string[0] == "a"}
 end
+
+def sum_array(array)
+  sum = 0 
+  array.collect {
