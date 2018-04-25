@@ -6,7 +6,7 @@ def sort_array_desc(array_of_int)
   array_of_int.sort {|a, b| b<=>a}
 end
 
-def sort_array_char_account(array_of_strings)
+def sort_array_char_count(array_of_strings)
   array_of_strings.sort do |a, b|
     if a.length == b.length 
       0 
