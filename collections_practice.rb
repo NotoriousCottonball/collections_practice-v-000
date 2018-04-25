@@ -45,4 +45,5 @@ def sum_array(array)
   array.each {|num| sum += num} 
   sum
 end
-def
+
+def add_s()
