@@ -48,8 +48,10 @@ end
 
 def add_s(array_of_strings)
   array_of_strings.collect.with_index do |word, index|
-    if index != 1 
-      word += "s" 
+    if index = 1 
+     word
+    else
+      word += "s"
     end
   end 
 end
